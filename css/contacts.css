@@ -1,0 +1,58 @@
+.contacts {
+	background: #fff;
+	padding-bottom: 20px;
+}
+
+.contacts-body {
+	position: relative;
+	display: grid;
+	grid-template: 1fr / repeat(auto-fit, minmax(240px, 1fr));
+	grid-gap: 10px;
+	justify-items: center;
+	padding: 0 20px 20px 20px;
+}
+
+.contacts-body .box {
+	position: relative;
+	display: grid;
+	grid-column-gap: 10px;
+	grid-template: 1fr / 25px 1fr;
+	align-items: center;
+	justify-items: center;
+}
+
+.contacts-body h3 {
+	font-size: 20px;
+}
+
+.contacts-body .icon {
+	padding-top: 4px;
+	color: #000;
+	font-size: 20px;
+	grid-column: 1/2;
+}
+
+.contacts-body p,
+.contacts-body a {
+	text-decoration: none;
+	font-size: 16px;
+	color: #000;
+	font-weight: 300;
+	grid-column: 2/3;
+}
+
+.contacts-body  h3 {
+	font-weight: 500;
+	color: #2196f3;
+}
+
+._PC .box:hover .icon {
+	color: var(--color);
+}
+
+@media (max-width: 500px) {
+	.contacts-body {
+		justify-items: start;
+		padding: 0 0px 0px 20px;
+	}
+}
