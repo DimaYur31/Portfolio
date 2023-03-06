@@ -44,11 +44,11 @@
 	overflow: hidden;
 	transition: 0.5s;
 }
-._PC .work-item a:hover {
+._PC .work-item:nth-child(even) a:hover {
 	background: #1e3de9;
 	border: 1px solid #1e3de9;
 }
-._PC .work-item:nth-child(2) a:hover {
+._PC .work-item:nth-child(odd) a:hover {
 	background: #fd1717;
 	border: 1px solid #fd1717;
 }

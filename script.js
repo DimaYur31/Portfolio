@@ -9,6 +9,11 @@ const data = [
 		text: 'Figma; HTML (БЭМ); SCSS(Grid); Prepros; JS; Photoshop(сжатие img); Адаптив по медиа-запросам.',
 		link: 'https://dimayur31.github.io/Prtfolio_two/'
 	},
+	{
+		title: 'TO-DO List',
+		text: 'React.js, SCSS (мое тестовое задание с 2021, тогда только начинал изучать React. Решил переписать этот ужас (оригинал есть на GitHab), дизайн и функционал остался из макета)',
+		link: 'https://my-to-do-new-site.netlify.app'
+	},
 ];
 
 isMobile = {
