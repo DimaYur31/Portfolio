@@ -11,8 +11,13 @@ const data = [
 	},
 	{
 		title: 'TO-DO List',
-		text: 'React.js, SCSS (мое тестовое задание с 2021, тогда только начинал изучать React. Решил переписать этот ужас (оригинал есть на GitHab), дизайн и функционал остался из макета)',
+		text: 'React.js, SCSS',
 		link: 'https://my-to-do-new-site.netlify.app'
+	},
+	{
+		title: 'Countries-Vue.js',
+		text: 'Vue.js, SCSS, Adaptive',
+		link: 'https://dimayur31countries.netlify.app'
 	},
 ];
 
