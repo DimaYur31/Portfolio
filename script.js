@@ -7,7 +7,7 @@ const data = [
 	{
 		title: 'portfolio-two',
 		text: 'Figma; HTML (БЭМ); SCSS(Grid); Prepros; JS; Photoshop(сжатие img); Адаптив по медиа-запросам.',
-		link: 'https://dimayur31.github.io/Prtfolio_two/'
+		link: 'https://dimayur31.github.io/Portfolio_two/'
 	},
 	{
 		title: 'TO-DO List',
